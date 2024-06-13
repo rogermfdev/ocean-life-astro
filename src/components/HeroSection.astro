@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+import heroImage from "../assets/images/hero.jpg"
+import Button from "./ui/Button.astro";
+
+
+---
+<Image src={heroImage} alt="" class="absolute h-[60vh] w-full object-cover" />
+<section class="relative bg-cover bg-center ">
+    <div class="grid grid-cols-12  z-10 w-full h-[60vh]">
+        <div class="col-start-2 col-span-5 flex flex-col justify-end gap-4 my-16 text-white">
+            <h2 class="text-5xl align-bottom ">Planeta Marino</h2>
+            <p>Explora la vida marina como nunca antes. Sumérgete en el fascinante mundo de la vida marina.
+
+            </p>
+            <Button color={'blue-500'} span={'Ver ahora'} colorSpan={'white'} />
+        </div>
+    </div>
+</section>

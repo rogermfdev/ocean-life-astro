@@ -1,0 +1,16 @@
+{
+    "editor.suggest.showInlineDetails": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+      "javascript": "javascript",
+      "html": "html"  // Cambié "HTML" a "html" para mantener la consistencia en el uso de minúsculas
+    },
+    "[astro]": {
+      "editor.defaultFormatter": "Jota0222.multi-formatter"
+    }
+  }
+  
+
+  

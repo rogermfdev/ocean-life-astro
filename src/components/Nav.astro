@@ -1,0 +1,17 @@
+---
+import Image from "astro/components/Image.astro";
+import Logo from "../assets/images/logo.png"
+import Button from "./ui/Button.astro";
+
+---
+
+<div class="grid grid-cols-12">
+<nav class="col-start-2 col-end-12  py-4 flex  justify-between">
+    <span>
+        <a href="/"><Image src={Logo} alt="" width={150} height={150} /></a>
+    </span>
+    <a href="nuevo-video">
+        <Button color={"blue-500"} span={'Subir Video'} colorSpan={'white'}>
+    </a>
+</nav>
+</div>
